@@ -1,0 +1,63 @@
+body{
+    /*margin:0px 0px 0px 0px;*/
+}
+
+
+.container {
+
+}
+
+@media only screen and (max-width : 800px){
+	.form-signin {
+		margin: auto;
+	}
+	
+}
+
+/*  custom bootstrap     */
+
+.btn-ingreso { 
+  color: #000000; 
+  background-color: #FFCB02; 
+  border-color: #FFCB02; 
+} 
+ 
+.btn-ingreso:hover, 
+.btn-ingreso:focus, 
+.btn-ingreso:active, 
+.btn-ingreso.active, 
+.open .dropdown-toggle.btn-ingreso { 
+  color: #000000; 
+  background-color: #FFf200; 
+  border-color: #FFCB02; 
+} 
+ 
+.btn-ingreso:active, 
+.btn-ingreso.active, 
+.open .dropdown-toggle.btn-ingreso { 
+  background-image: none; 
+} 
+ 
+.btn-ingreso.disabled, 
+.btn-ingreso[disabled], 
+fieldset[disabled] .btn-ingreso, 
+.btn-ingreso.disabled:hover, 
+.btn-ingreso[disabled]:hover, 
+fieldset[disabled] .btn-ingreso:hover, 
+.btn-ingreso.disabled:focus, 
+.btn-ingreso[disabled]:focus, 
+fieldset[disabled] .btn-ingreso:focus, 
+.btn-ingreso.disabled:active, 
+.btn-ingreso[disabled]:active, 
+fieldset[disabled] .btn-ingreso:active, 
+.btn-ingreso.disabled.active, 
+.btn-ingreso[disabled].active, 
+fieldset[disabled] .btn-ingreso.active { 
+  background-color: #FFCB02; 
+  border-color: #FFCB02; 
+} 
+ 
+.btn-ingreso .badge { 
+  color: #FFCB02; 
+  background-color: #000000; 
+}
